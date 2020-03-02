@@ -13,7 +13,7 @@
       }
       &.active {
         .nav-link {
-          color: $primary;
+          color: $gvyellow;
         }
       }
     }
@@ -24,12 +24,12 @@
         .nav-link {
           font-size: 0.9rem;
           &:hover {
-            color: fade-out($white, 0.6);
+            color: fade-out($gvyellow-light, 0.6);
           }
         }
         &.active {
           .nav-link:hover {
-            color: $primary;
+            color: $gvyellow-light;
           }
         }
       }
